@@ -2,7 +2,7 @@ package org.grails.plugins.trixeditor
 
 import grails.plugins.*
 
-class GrailsTrixEditorPlugin extends Plugin {
+class GrailsPlugin extends Plugin {
 
     // the version or versions of Grails the plugin is designed for
     def grailsVersion = "3.2.5 > *"

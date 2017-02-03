@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 set -e
-./gradlew clean check assemble --stacktrace
+./gradlew clean check --stacktrace
 
 EXIT_STATUS=0
 echo "Publishing archives for branch $TRAVIS_BRANCH"

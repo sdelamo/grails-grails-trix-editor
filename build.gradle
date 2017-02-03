@@ -9,7 +9,7 @@ buildscript {
     }
 }
 
-version "0.10.01"
+version "0.10.1"
 group 'org.grails.plugins'
 
 apply plugin:"idea"
@@ -46,15 +46,16 @@ grailsPublish {
     key = System.getenv("BINTRAY_KEY") ?: project.bintrayKey
     portalUser = System.getenv("GRAILS_PORTAL_USER") ?: project.grailsPortalUser
     portalPassword = System.getenv("GRAILS_PORTAL_PASSWORD") ?: project.grailsPortalPassword
-
+    repo = 'plugins'
     githubSlug = "sdelamo/$project.name"
     license {
         name = 'Apache-2.0'
     }
     title = "Grails GeoPlugin"
-    desc = "Exposes a Grails service which queries the geoplugin api given an ip address"
+    desc = "Grails 3 Plugin to integrate Trix Editor"
     developers = [sdelamo:"Sergio del Amo"]
 }
+
 artifactory {
     contextUrl = 'http://oss.jfrog.org'
     publish {

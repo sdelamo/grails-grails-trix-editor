@@ -7,7 +7,7 @@ cache:
   - "$HOME/.m2"
   - "$HOME/.gradle/caches/"
   - "$HOME/.gradle/wrapper/"
-  - "$HOME/.grails
+  - "$HOME/.grails"
 env:
   global:
   - secure: GAYB3zT1AYtu0+ZegIr59GdtJMhPpadyj9WKAViyVibNoXrudYM0oXbjqQ+7RgetyuuSn+AZzT3rEbrnmzXmRDSepAgwfd4hcvk5aHnzewOPNKjyzkAgMcmoenRaceMCPBgY2vkoEqBIH0YUI/ec6x1IitXkrvL76+TC+Z72AhbbKhHRcAsZSp9/FHw0viI6EhjgE6zVt/ybvWBWmO+1+WVje7STYkzkjGTEZQBTnuFaHDcoBxqfrjSkjaGtnohb8QtE3JSsBjqW0nPeYCAMM08a0N19l8RdmlQuZjYoUm3ZHvDNsfsfjwJGx4w1w7W4ldfldeUyxY5744vrlCjf3085DrnS/5OTEtX7coAm1IcX8DbJIMGtz5uD2T+0e+QotM6s7c8cY+NcpCIBkQYiPFJB2ASqjRsqIxBdUYe3jqbvx5kHRMzrxoR9TXJGlLhpPwpQGchliCpm7of88eYw67RBPo0Rn/3ELTXYEJ5dMgKjBE6xE4WHUzTLOrjOWZUMQWi/LpEO5Y8xVyrMzMAcu/dALjKp72dksAOcyVbNxX8PzcGfxXAegPVMhFlgbGCkPfe7k09I0m8w/kkuRf7sPaWhHGgOV7fuGJM+v3XjZYa0l+RmF/EPPW9KqyQagQJ+aFA6fNxvsyANSWK/ntq3BN0ZcQ/X543vyt9VnNKxpLU=

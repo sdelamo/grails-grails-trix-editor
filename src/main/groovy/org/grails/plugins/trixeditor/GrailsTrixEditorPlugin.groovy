@@ -35,7 +35,7 @@ A Grails 3 Plugin to integrate https://trix-editor.org as a TagLib Edit
 //    def developers = [ [ name: "Joe Bloggs", email: "joe@bloggs.net" ]]
 
     // Location of the plugin's issue tracker.
-    def issueManagement = [ system: "github", url: "https://github.com/grails/grails-trix-editor/issues" ]
+    def issueManagement = [ system: "github", url: "https://github.com/sdelamo/grails-trix-editor/issues" ]
 
     // Online location of the plugin's browseable source code.
 //    def scm = [ url: "http://svn.codehaus.org/grails-plugins/" ]

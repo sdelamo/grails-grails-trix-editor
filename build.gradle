@@ -10,9 +10,8 @@ buildscript {
 }
 
 version "0.1"
-group "grails.trix.editor"
+group "org.grails.plugins"
 
-apply plugin:"eclipse"
 apply plugin:"idea"
 apply plugin:"org.grails.grails-plugin"
 apply plugin:"org.grails.grails-plugin-publish"
@@ -49,18 +48,17 @@ bootRun {
 // enable if you wish to package this plugin as a standalone application
 bootRepackage.enabled = false
 grailsPublish {
-    // TODO: Provide values here
-    user = 'user'
-    key = 'key'
-    githubSlug = 'foo/bar'
+    user = System.getenv("BINTRAY_USER") ?: project.bintrayUser
+    key = System.getenv("BINTRAY_KEY") ?: project.bintrayKey
+    githubSlug = 'https://github.com/sbglasius/demoplugin'
     license {
         name = 'Apache-2.0'
     }
-    title = "My Plugin"
-    desc = "Full plugin description"
-    developers = [johndoe:"John Doe"]
-    portalUser = ""
-    portalPassword = ""    
+    title = "Grails Trix-Editor Plugin"
+    desc = "A Grails 3 Plugin to integrate trix-editor.org as a TagLib"
+    developers = [sdelamo:"Sergio del Amo"]
+    portalUser = System.getenv("GRAILS_PORTAL_USER") ?: project.grailsPortalUser
+    portalPassword = System.getenv("GRAILS_PORTAL_PASSWORD") ?: project.grailsPortalPassword
 }
 
 

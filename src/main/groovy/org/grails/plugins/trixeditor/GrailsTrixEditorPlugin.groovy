@@ -12,7 +12,7 @@ class GrailsTrixEditorPlugin extends Plugin {
     ]
 
     // TODO Fill in these fields
-    def title = "Trix-Editor" // Headline display name of the plugin
+    def title = "Grails Trix-Editor Plugin" // Headline display name of the plugin
     def author = "Sergio del Amo"
     def authorEmail = "sergio.delamo@softamo.com"
     def description = '''\

@@ -1,6 +1,6 @@
 package org.grails.plugins.trixeditor
 
-import grails.plugins.*
+import grails.plugins.Plugin
 
 class TrixEditorGrailsPlugin extends Plugin {
 

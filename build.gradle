@@ -69,3 +69,7 @@ artifactory {
         }
     }
 }
+
+assets {
+    packagePlugin = true
+}

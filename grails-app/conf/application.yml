@@ -2,7 +2,7 @@
 grails:
     profile: web-plugin
     codegen:
-        defaultPackage: grails.trix.editor
+        defaultPackage: org.grails.plugins.trixeditor
     spring:
         transactionManagement:
             proxies: false

@@ -2,7 +2,7 @@
 
 ## Installation
 
-Add a dependency in your `build.gradle
+Add a dependency in your build.gradle
 
 ```
 repositories {
@@ -17,8 +17,8 @@ dependencies {
     ...
     ..
     .
-}```
-
+}
+```
 
 ## Usage
 

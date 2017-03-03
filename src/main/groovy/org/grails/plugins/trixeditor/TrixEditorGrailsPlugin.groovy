@@ -2,31 +2,32 @@ package org.grails.plugins.trixeditor
 
 import grails.plugins.Plugin
 
+@SuppressWarnings(['EmptyMethod', 'UnusedMethodParameter'])
 class TrixEditorGrailsPlugin extends Plugin {
 
     // the version or versions of Grails the plugin is designed for
-    def grailsVersion = "3.2.6 > *"
+    def grailsVersion = '3.2.6 > *'
     // resources that are excluded from plugin packaging
     def pluginExcludes = [
-        "grails-app/views/error.gsp"
+        'grails-app/views/error.gsp'
     ]
 
     // TODO Fill in these fields
-    def title = "Grails Trix-Editor Plugin" // Headline display name of the plugin
-    def author = "Sergio del Amo"
-    def authorEmail = "sergio.delamo@softamo.com"
+    def title = 'Grails Trix-Editor Plugin'
+    def author = 'Sergio del Amo'
+    def authorEmail = 'sergio.delamo@softamo.com'
     def description = '''\
 A Grails 3 Plugin to integrate https://trix-editor.org as a TagLib Edit
 '''
     def profiles = ['web']
 
     // URL to the plugin's documentation
-    def documentation = "http://grails.org/plugin/"
+    def documentation = 'https://github.com/sdelamo/grails-trix-editor/'
 
     // Extra (optional) plugin metadata
 
     // License: one of 'APACHE', 'GPL2', 'GPL3'
-    def license = "APACHE"
+    def license = 'APACHE'
 
     // Details of company behind the plugin (if there is one)
 //    def organization = [ name: "My Company", url: "http://www.my-company.com/" ]
@@ -35,12 +36,12 @@ A Grails 3 Plugin to integrate https://trix-editor.org as a TagLib Edit
 //    def developers = [ [ name: "Joe Bloggs", email: "joe@bloggs.net" ]]
 
     // Location of the plugin's issue tracker.
-    def issueManagement = [ system: "github", url: "https://github.com/sdelamo/grails-trix-editor/issues" ]
+    def issueManagement = [ system: 'github', url: 'https://github.com/sdelamo/grails-trix-editor/issues' ]
 
     // Online location of the plugin's browseable source code.
 //    def scm = [ url: "http://svn.codehaus.org/grails-plugins/" ]
 
-    Closure doWithSpring() { {->
+    Closure doWithSpring() { { ->
             // TODO Implement runtime spring config (optional)
         }
     }

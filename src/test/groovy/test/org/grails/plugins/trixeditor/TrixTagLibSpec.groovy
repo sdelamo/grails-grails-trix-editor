@@ -7,12 +7,13 @@ import spock.lang.Specification
 /**
  * See the API for {@link grails.test.mixin.web.GroovyPageUnitTestMixin} for usage instructions
  */
+@SuppressWarnings('LineLength')
 @TestFor(TrixTagLib)
 class TrixTagLibSpec extends Specification {
 
     void "test trix editor markup is created"() {
         when:
-        def expected = '''<input id="x" type="hidden" name="content" value="Editor content goes here" /><trix-editor input="x"></trix-editor>'''
+        def expected = '<input id="x" type="hidden" name="content" value="Editor content goes here" /><trix-editor input="x"></trix-editor>'
         def output = applyTemplate('<trix:editor name="content" id="x" value="Editor content goes here"/>')
 
         then:

@@ -5,6 +5,10 @@
 Add a dependency in your `build.gradle
 
 ```
+repositories {
+    jcenter() 
+}
+
 dependencies {
     .
     ..
@@ -16,4 +20,27 @@ dependencies {
 }```
 
 
-Usage
+## Usage
+
+In your GSP files:
+
+```
+<!DOCTYPE html>
+<html>
+    <head>
+    ..
+    .
+    .
+        <asset:stylesheet src="trix/trix.css"/>
+    </head>
+    <body>
+
+…
+.
+      <trix:editor name="about" value="${book?.about}"/>
+.
+..
+        <asset:javascript src="trix/trix.js"/>
+    </body>
+</html>
+```
